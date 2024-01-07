@@ -1,0 +1,12 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}

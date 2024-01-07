@@ -1,0 +1,39 @@
+.add-user-form {
+    width: 300px;
+    height: max-content;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.user-form, .user-form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-form fieldset {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.user-form fieldset legend {
+    padding: 0 5px;
+}
+
+.user-form input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.user-form label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-user-form button {
+    margin-top: 15px;
+}
